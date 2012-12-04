@@ -12,10 +12,10 @@ In this (short!) workshop, we will get acquainted with the [nitime software libr
 
 ### Examples:
 
-- Event-related analysis using nitime.  [Notebook](http://nbviewer.ipython.org/urls/raw.github.com/arokem/teaching_nitime/blob/master/event_related_analysis.ipynb).
+- Event-related analysis using nitime.  [Notebook](https://nbviewer.ipython.org/urls/raw.github.com/arokem/teaching_nitime/blob/master/event_related_analysis.ipynb).
 
 - Multi-channel analysis using nitime. 
-[Notebook](http://nbviewer.ipython.org/urls/raw.github.com/arokem/teaching_nitime/blob/master/multi_channel_analysis.ipynb).
+[Notebook](https://nbviewer.ipython.org/urls/raw.github.com/arokem/teaching_nitime/blob/master/multi_channel_analysis.ipynb).
 
 ## If you want to follow along: 
 
