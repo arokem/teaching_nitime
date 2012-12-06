@@ -1,0 +1,123 @@
+% PsychoPy tutorial
+% Ariel Rokem
+% License:CC(http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+\documentclass{beamer}
+
+\usepackage{ulem}
+\usepackage{listings,bera}
+
+\usetheme{PaloAlto}
+\beamertemplatenavigationsymbolsempty
+
+\definecolor{fore}{RGB}{0,20,30}
+\definecolor{back}{RGB}{255,255,255}
+\definecolor{title}{RGB}{255,255,255}
+
+
+\setbeamercolor{titlelike}{fg=title}
+\setbeamercolor{normal text}{fg=fore,bg=back}
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{60,179,113}
+\definecolor{strings}{RGB}{120,120,0}
+
+\lstset{language=Python,
+keywordstyle=\color{keywords},
+commentstyle=\color{comments}\emph,
+stringstyle=\color{strings}}
+
+\title[nitime]{\tt{nitime}}
+\subtitle
+{\sc{Time-series analysis with python}}
+
+\author[Ariel Rokem] % (optional, use only with lots of authors)
+{Ariel Rokem}
+\date{December 5th, 2012}
+\institute[Stanford University]
+{Stanford University}
+
+\pgfdeclareimage[height=1.5cm]{stanford-logo}{figures/stanford_logo}
+% put nipy logo in bottom left
+\pgfdeclareimage[height=1.5cm]{nipper}{figures/nipper}
+\setbeamertemplate{sidebar left}{
+   \rlap{\hskip0.1cm%
+     {\pgfuseimage{stanford-logo}}}
+    \vfill%
+   \rlap{\hskip0.1cm%
+     {\pgfuseimage{nipper}}}%
+   \vskip2pt%
+   \llap{\usebeamertemplate***{navigation symbols}\hskip0.1cm}%
+   \vskip2pt%
+}
+
+\begin{document}
+
+%Title page:
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Outline}
+\begin{itemize}
+\pause
+\item
+Scientific computing in python: why python?
+\pause
+\item
+The \tt{nitime} \sc{software library}: introduction.
+\pause
+\item 
+Examples: 
+\pause
+\item
+Spike-triggered average
+\pause
+\item
+Cross-channel coherence
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Scientific computing in python}
+\begin{itemize}
+\pause
+\item
+Free and open source
+\pause
+\item
+A real programming language (OO is not an after-thought)
+\pause
+\item
+Excellent libraries for scientific computing, visualization, ...
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{\tt{Nitime}}
+\begin{itemize}
+\pause
+\item
+Software library for the analysis of time-series from neuroscience data
+\pause
+\item
+Written in Python
+\pause
+\item 
+Free and open source
+\pause
+\item
+Part of the \tt{NIPY} \sc{project}
+\pause
+\item
+\tt{http://nipy.org/nitime}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\large{Let's jump in!}
+\end{frame}
+
+\end{document}
+
